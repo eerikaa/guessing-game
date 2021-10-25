@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="main.css" />
+    <!-- the MAIN.CSS file is linked here -->
+  </head>
+
+  <body> 
+    <div class="intro">
+    <h1>Number Guessing Game</h1>  
+    <p>This is a number between 1 and 100. Hope you get it in 5 tries! If not, you will be eliminated.</p>
+  </div>
+      <div class ="form">
+        
+        <label for="guess1">Here's my guess!</label>
+        <input type="number" id="guess">
+        <input type="submit" id="submitGuess" value="Could it be right?">
+        
+        </div>
+
+        <div class="resultParas">
+          <p class="guesses"></p>
+          <p class="lastResult"></p>
+          <p class="lowOrHi"></p>
+        </div>
+
+        
+
+
+
+
+
+    <script src='js/guessing-game.js'></script>
+    <!-- uncomment the script tag above when you are ready to add JavaScript to your document -->
+  </body>
+
+</html>
